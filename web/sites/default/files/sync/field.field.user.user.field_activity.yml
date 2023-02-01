@@ -1,0 +1,21 @@
+uuid: 5b97c571-4cb8-4ace-81c3-11f7c3eb616d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_activity
+  module:
+    - options
+    - user
+id: user.user.field_activity
+field_name: field_activity
+entity_type: user
+bundle: user
+label: Activity
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string
