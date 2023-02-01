@@ -1,0 +1,26 @@
+uuid: f793b99b-0776-44cf-b2ef-33c32a2e6b6a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.rotator
+    - field.storage.block_content.field_interval
+  module:
+    - datetime_range
+id: block_content.rotator.field_interval
+field_name: field_interval
+entity_type: block_content
+bundle: rotator
+label: Interval
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+    default_end_date_type: relative
+    default_end_date: '+10 days'
+default_value_callback: ''
+settings: {  }
+field_type: daterange

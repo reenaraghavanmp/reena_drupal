@@ -12,6 +12,7 @@ module:
   contact: 0
   contextual: 0
   datetime: 0
+  datetime_range: 0
   dblog: 0
   dynamic_page_cache: 0
   editor: 0
@@ -37,6 +38,7 @@ module:
   system: 0
   taxonomy: 0
   text: 0
+  time_range: 0
   toolbar: 0
   tour: 0
   update: 0

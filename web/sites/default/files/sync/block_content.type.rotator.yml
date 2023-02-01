@@ -1,0 +1,8 @@
+uuid: 63cae2ff-36e4-43e6-99b6-22bcbaddbb1b
+langcode: en
+status: true
+dependencies: {  }
+id: rotator
+label: Rotator
+revision: 0
+description: 'Custom Block Type'
